@@ -1,6 +1,6 @@
 let currentLocation = 0;
 
-const startCode = "LIBERTE INCONDITIONELLE";
+const startCode = "LIBERTE INCONDITIONNELLE";
 
 const locations = [
 
