@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<title>RSL – Roucroix Slow Life</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<!-- WELCOME SCREEN -->
+
+<div id="welcome-screen">
+
+<h1>RSL – Roucroix Slow Life</h1>
+
+<div class="intro-box">
+
+<p>Welcome to the Roucroix Slow Life Treasure Hunt.</p>
+
+<p>At each location you must complete a photo mission.</p>
+
+<p>Once completed, your partner will give you a key to unlock the next location.</p>
+
+<h3>First clue</h3>
+
+<p>What is the first article of the Roucroix Constitution?</p>
+
+<input id="start-code" placeholder="Enter passcode">
+
+<button id="start-btn">Start Game</button>
+
+</div>
+
+</div>
+
+
+<!-- GAME SCREEN -->
+
+<div id="game-screen" style="display:none;">
+
+<div class="mission-card">
+
+<h2 id="mission-text"></h2>
+
+<p id="coordinates"></p>
+
+<button id="open-maps">Open in Maps</button>
+
+</div>
+
+<input id="code-input" placeholder="Enter code for next location">
+
+<button id="unlock-btn">Unlock Next Location</button>
+
+</div>
+
+
+<!-- FINISH SCREEN -->
+
+<div id="finish-screen" style="display:none;">
+
+<h1>🎉 Treasure Hunt Complete!</h1>
+
+<p>You completed the Roucroix Slow Life journey.</p>
+
+<p>Your final destination is:</p>
+
+<h2>H&H Brazilian Steakhouse</h2>
+
+<p>Enjoy your reward and celebrate the adventure.</p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
